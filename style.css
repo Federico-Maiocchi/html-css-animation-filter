@@ -63,6 +63,29 @@
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
+/*Essercizio 6*/
+.ex-6-img:hover {
+    filter: grayscale(90%);
+}
+/*Esercizio 7*/
+.ex-7-img {
+    transition: all 1s linear 0.8s;
+}
+.ex-7-img:hover {
+    filter: contrast(70%) brightness(30%);
+    transition: all 1s;
+}
+/*Esercizio 8*/
+.ex-8-img{
+    transition: all 0.5s linear 0.5s;
+}
+
+.ex-8-img:hover {
+    filter: sepia(70%);
+    border-radius: 5%;
+}
+
+/*Esercizio 9*/
 
 .ex-9-img {
     margin: 50px 100px;
