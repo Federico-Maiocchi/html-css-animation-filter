@@ -99,8 +99,26 @@
 }
 /*Esercizio 10*/
 .ex-10-icon {
+    display: inline-block;
     font-size: 60px;
+    animation: loading 1s infinite;
+    animation-timing-function: linear;
 }
+
+@keyframes loading {
+
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(1turn);
+    }
+    
+    
+}
+
+
 .ex-11-icon {
     font-size: 60px;
 }
