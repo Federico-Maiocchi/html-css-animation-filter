@@ -86,11 +86,18 @@
 }
 
 /*Esercizio 9*/
-
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: all 1s ease-in-out 1s;
 }
+
+.ex-9-img:hover {
+    filter: sepia(70%);
+    border-radius: 5%;
+    transform: scale(1.4);
+}
+/*Esercizio 10*/
 .ex-10-icon {
     font-size: 60px;
 }
