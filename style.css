@@ -183,6 +183,7 @@
 .ex-12-button:hover .ex-12-top-white {
     animation : slide-top12 3s linear 0s;
 }
+
 @keyframes slide-top12 {
     0% {
         left: 10%;
@@ -194,3 +195,24 @@
         
     }
 }
+
+/*bottom*/
+.ex-12-button:hover .ex-12-bottom-white {
+    animation : slide-bottom12 3s linear 0s;
+}
+
+@keyframes slide-bottom12 {
+    0% {
+        right: 10%;
+    }
+
+    50% {
+        right: 70%;
+    }
+
+    100% {
+        right: 10%;
+    }
+}
+
+/*Esercizio 13*/
