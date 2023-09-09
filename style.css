@@ -179,23 +179,18 @@
 }
 
 /* Esercizio 12 */
-
-.ex-12-bottom-white:hover .ex-12-top-white {
-    animation: top12 2s linear 0s;
-    
+/*top*/
+.ex-12-button:hover .ex-12-top-white {
+    animation : slide-top12 3s linear 0s;
 }
-
-@keyframes top12 {
+@keyframes slide-top12 {
     0% {
-        left: 0px;
+        left: 10%;
     }
-
-    50%{
+    50% {
         left: 70%;
     }
-
     100% {
         
     }
 }
-
